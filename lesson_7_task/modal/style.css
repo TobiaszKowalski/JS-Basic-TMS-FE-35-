@@ -10,7 +10,9 @@
     background: rgba(0, 0, 0, .3);
     cursor: pointer;
 }
-
+.show {
+    display: block;
+}
 .popap {
     position: absolute;
     border: 1px solid rgba(0, 0, 0, .5);
@@ -54,6 +56,10 @@
 
 .popap-form {
     margin-bottom: 20px;
+}
+
+.popap-input {
+    border: 1px solid red;
 }
 
 .popap-main label {
